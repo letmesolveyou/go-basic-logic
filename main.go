@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/letmesolveyou/go-basic-logic/logic_02"
+	"github.com/letmesolveyou/go-basic-logic/logic_03"
 	go_print_slice "github.com/letmesolveyou/go-print-slice"
 )
 
 func main() {
-	matrix := logic_02.Soal09(9)
+	matrix := logic_03.Soal07(9)
 	go_print_slice.PrintSlice2D(matrix)
 
 	//slice := []int{1, 2, 3}
